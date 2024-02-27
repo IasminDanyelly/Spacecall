@@ -1,0 +1,54 @@
+form textarea{
+    resize: none;
+    height: 110px;
+    border-radius: 5px;
+    margin-bottom: 0.8em;
+    border: 1px solid #bbbbbb ;  
+}
+
+form textarea:focus{
+    outline: none;
+   
+}
+
+form input[type="radio"]{
+    margin: 15px 0;
+
+}
+
+form input[type="radio"]:not(:first-child){
+    margin-left: 15px;
+}
+
+.status span{
+    padding-left: 0.5em;
+    font-size: 1.2em;
+    color: #bbbbbb;
+}
+
+.status{
+    margin-bottom: 1em;
+}
+
+
+label{
+    margin:0.5em 0;
+}
+
+select:focus{
+    outline: none;
+}
+ 
+select option{
+    background-color: #1F232C;
+    color: #ececec;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+select{    
+    outline: none;
+    border: none;
+
+}

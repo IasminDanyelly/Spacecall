@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.sidebar{
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: auto; 
+    border-radius: 5px;
+    border-right: 1px solid #444950;
+}
+
+.sidebar div{
+    padding-top:30px;
+    margin-bottom: 30px;
+}
+
+.sidebar div img{
+    width: 90px;
+    height: 90px; 
+    display: block;
+    margin: auto;
+    border-radius:50%;
+    object-fit: cover;
+    filter: drop-shadow(0.1px 0.2px 8px #202C2D);
+    -webkit-filter:drop-shadow(0.1px 0.2px 8px #202C2D);
+}
+
+.sidebar a{
+    display: block;
+    padding: 20px;
+    display: flex; 
+    text-decoration: none;
+    color: #fff;
+    flex-direction: row;
+    align-items: center;
+    transition: ease-in-out 0.4s;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+}
+
+.sidebar a svg{
+    margin-right: 0.5rem;
+}
+
+.sidebar a:hover{
+    background-color: #375768;
+}
+
+.content{
+    margin-left: 200px;
+    padding: 0.5em 16px;
+}
+
+@media screen and (max-width: 700px){
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .content{
+        margin-left: 0;
+    }
+    .sidebar a{
+        float: left;
+        padding-right: 40px;
+        margin-left:40px;
+        
+    }
+    .sidebar div{
+        display: none;
+    }
+    .sidebar div img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:560px){
+     .content{
+        margin-left: 0;
+     }
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        border-bottom: 1px solid #444950;
+       
+    }
+    .sidebar a{
+        padding-bottom: 15px;
+    }
+}

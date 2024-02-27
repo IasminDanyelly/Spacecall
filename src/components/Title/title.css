@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.title-component{
+    display: flex;
+    flex-direction: row;
+    margin: 1em 0;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #272D36;
+    padding: 0.8em;
+}
+
+.title-component span{
+    color: #ffff;
+    margin-left: 0.6em;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}

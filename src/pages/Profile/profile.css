@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.container{
+      align-items: center;
+      background-color: #272D36;
+      border-radius: 5px;
+      display: flex;
+      margin-bottom:1em ;
+      padding: 0.8em;
+      overflow: hidden;
+  }
+.label-avatar{
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 250px;
+      width: 250px;
+  }
+.label-avatar input{
+      display: none;
+  }
+.label-avatar span{
+      opacity: 0.7;
+      position: absolute;
+      transition: all 0.5s;
+      z-index: 99;
+  }
+.label-avatar span:hover{
+      opacity: 1;
+      transform: scale(1.4);
+  }
+.label-avatar img{
+      border-radius: 50%;
+      margin-bottom: 0.8em;
+      object-fit: cover;
+  }
+
+.form-profile label{
+      font-size: 1.4em;
+      color: #efefef; 
+      margin-bottom: 0.3em;   
+ }
+
+.form-profile{
+      display: flex;
+      flex-direction: column;
+ }
+.form-profile input, textarea, select{
+      padding: 0.7em;
+      border:0;
+      margin-bottom: 0.5em;
+      border-radius: 5px;
+      background: none;
+      font-size: 1.2em; 
+      color: #717983;
+ }
+
+.form-profile input:focus{
+      outline: none;
+      caret-color: #fff;
+ }
+
+.form-profile input:disabled{
+      cursor: not-allowed;
+ }
+
+.form-profile button{
+      width: 100%;
+      border:none;
+      border-radius: 5px;
+      color: #efefef;
+      padding:8px 0;
+      background-color: #375768 ;
+      font-family: 'Quicksand', sans-serif;
+ }
+.form-profile button:hover{
+      background-color: #2f4d5f ;
+      transition: all 0.5s;
+}
+.logout-btn{
+      padding: 8px 20px;
+      border: none;
+      color: #efefef;
+      max-width: 250px;
+      width: 90%;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      font-family: 'Quicksand', sans-serif;
+      border-radius: 5px;
+      background-color:#77413e ;
+}
+
+.logout-btn:hover{
+      background-color:#522b29;
+      transition: all 0.2s;
+}

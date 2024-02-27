@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 99;
+}
+
+.modal .container{
+    position: fixed;
+    max-width: 600px;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 4em 2em;
+    color: #fff;
+    box-shadow: 0 0 20px rgba( 0,0,0,0.5);
+}
+
+.close{
+
+    background-color: #f65835;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    border-radius:5px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 15px;
+    transition: ease-in-out 0.2s;
+}
+
+.close:hover{
+    background-color: #d34323;
+}
+
+.close svg{
+    margin-right: 4px;
+}
+
+.modal h2{
+    margin:1.2em 0;
+    font-size:1.2em;
+}
+
+.modal span{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.modal span i{
+    font-weight: 400;
+    margin-left: 1em;
+    padding: 2px 8px;
+}
+
+.row{
+    margin-bottom: 1.2em;
+}
+
+.modal p{
+    white-space: pre-wrap;
+    line-height: 100%;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.status-badge{
+    margin-left: 1em;
+    border-radius: 5px; 
+    border: none;
+}

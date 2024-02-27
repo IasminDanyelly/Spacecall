@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   margin: 0;
+   background-color: #1F232C;
+}
+
+::selection{
+    background-color:#25333D ;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+ 
+}
+.link{
+    color: #6f747c;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.link:hover{
+    color: #464646;
+    transition: all 0.2s;
+}
+
+
+
+.container-center{
+  
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login{
+  color: #fff;
+  width: 100%;
+  max-width: 550px;
+
+}
+
+.titulo{
+    font-family: 'Salsa', cursive;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Comfortaa', sans-serif;
+    text-align: left;
+    margin-bottom:12px ;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulario input{
+    background:none;
+    border: 1px solid #444950;
+    border-radius: 5px;
+    margin-bottom: 10px;   
+    padding: 15px;
+    color: #717983;    
+}
+
+.formulario input:focus{
+    outline: none;
+    caret-color: #fff;
+    border: 1px solid #1C5C64;
+}
+.botao{
+    background-color: #1C5C64;
+    color: #fff;
+    font-family: 'Comfortaa', sans-serif;;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
